@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 50px 80px 0;
+}
+
+.logo img {
+  width: 210px;
+}
+
+.content {
+  display: flex;
+  margin-top: 80px;
+}
+
+.left-side {
+  flex: 1.31;
+}
+
+.left-side img {
+  max-width: 709px;
+  width: 100%;
+  height: auto;
+}
+
+.right-side {
+  padding: 40px 0 0 50px;
+  flex: 1;
+}
+
+.right-side h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600px;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.right-side p {
+  opacity: 0.8;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 16px 66px;
+  border-radius: 40px;
+  border: none;
+  color: hsl(257, 40%, 49%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  background-color: #fff;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+.social-media a {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url('../images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .container {
+    margin: 0 35px;
+  }
+
+  .logo {
+    margin: 30px 0 50px;
+
+  }
+
+  .logo img {
+    width: 150px
+  }
+
+  .content {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .left-side {
+    margin-bottom: 60px;
+  }
+
+  .right-side {
+    margin-left: 0;
+    text-align: center;
+    padding: 0
+  }
+
+  .right-side h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .right-side p {
+    opacity: 0.9;
+    font-size: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 0.9px;
+  }
+
+  .btn {
+    padding: 14px 80px;
+    font-size: 14px;
+  }
+
+  .social-media {
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .social-media a {
+    width: 30px;
+    height: 30px;
+    margin-left: 14px;
+  }
+}
