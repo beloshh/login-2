@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: clamp(375px, 100%, 1440px);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-color: #ff7a7a;
+  background-image: url("../images/bg-intro-mobile.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.main {
+  max-width: 100%;
+}
+
+.main .top {
+  width: 85%;
+  margin: 0rem auto 3rem;
+  padding: 3rem 0 0;
+  text-align: center;
+}
+
+.main .top .header h2 {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  margin-bottom: 1.8rem;
+}
+
+.main .top .header p {
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+.main .bottom {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.main .bottom .tryItFree {
+  width: 100%;
+  background-color: #6055a5;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 7px 2px 0px #f96767;
+  box-shadow: 0px 7px 2px 0px #f96767;
+  margin-bottom: 1rem;
+}
+
+.main .bottom .tryItFree .tryItFreeText {
+  font-weight: lighter;
+  line-height: 1.7;
+  padding: 1rem 1.5rem;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+.main .bottom .tryItFree .tryItFreeText b {
+  font-weight: 700;
+}
+
+.main .bottom div {
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 7px 2px 0px #f96767;
+  box-shadow: 0px 7px 2px 0px #f96767;
+  background-color: #ffffff;
+}
+
+.main .bottom div .form {
+  width: 100%;
+  padding: 2rem 2rem 0;
+}
+
+.main .bottom div .form .inputContainer {
+  position: relative;
+  display: block;
+  margin-bottom: 1rem;
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+
+.main .bottom div .form .inputContainer input {
+  display: block;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  width: 100%;
+  height: 35px;
+  text-indent: 1rem;
+  font-family: inherit;
+}
+
+.main .bottom div .form .inputContainer input:focus {
+  outline: unset;
+  border-color: #3e3c49;
+}
+
+.main .bottom div .form .inputContainer input::-webkit-input-placeholder {
+  font-weight: 600;
+  line-height: 35px;
+  font-size: 0.7rem;
+}
+
+.main .bottom div .form .inputContainer input:-ms-input-placeholder {
+  font-weight: 600;
+  line-height: 35px;
+  font-size: 0.7rem;
+}
+
+.main .bottom div .form .inputContainer input::-ms-input-placeholder {
+  font-weight: 600;
+  line-height: 35px;
+  font-size: 0.7rem;
+}
+
+.main .bottom div .form .inputContainer input::placeholder {
+  font-weight: 600;
+  line-height: 35px;
+  font-size: 0.7rem;
+}
+
+.main .bottom div .form .inputContainer small {
+  color: #ff7a7a;
+  text-align: right;
+  margin: 0.2rem 0 1rem 0;
+  font-size: 0.6rem;
+  display: none;
+}
+
+.main .bottom div .form .inputContainer img {
+  height: 18px;
+  position: absolute;
+  display: none;
+  right: 10px;
+  bottom: 50%;
+}
+
+.main .bottom div .form .btnForm {
+  display: block;
+  margin: 3rem 0 1rem;
+  width: 100%;
+  padding: 0.8rem 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #38cc8c;
+  border: none;
+  border-radius: 3px;
+  -webkit-box-shadow: inset -1px -3px 2px 0 #00000047;
+  box-shadow: inset -1px -3px 2px 0 #00000047;
+  outline: unset;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.main .bottom div .form .btnForm:hover {
+  opacity: 0.85;
+}
+
+.main .bottom div .form .btnForm:active {
+  -webkit-box-shadow: inset -1px -3px 2px 0 transparent;
+  box-shadow: inset -1px -3px 2px 0 transparent;
+}
+
+.main .bottom div .form .inputContainer.error input {
+  border: 1px solid #ff7a7a;
+}
+
+.main .bottom div .form .inputContainer.error input::-webkit-input-placeholder {
+  color: #ff7a7a;
+}
+
+.main .bottom div .form .inputContainer.error input:-ms-input-placeholder {
+  color: #ff7a7a;
+}
+
+.main .bottom div .form .inputContainer.error input::-ms-input-placeholder {
+  color: #ff7a7a;
+}
+
+.main .bottom div .form .inputContainer.error input::placeholder {
+  color: #ff7a7a;
+}
+
+.main .bottom div .form .inputContainer.error small {
+  display: block;
+}
+
+.main .bottom div .form .inputContainer.error img {
+  display: block;
+}
+
+.main .bottom div p {
+  text-align: center;
+  color: #b9b6d3;
+  font-size: 0.7rem;
+  padding-bottom: 2rem;
+  margin: 0 2.5rem;
+}
+
+.main .bottom div p a {
+  color: #ff7a7a;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr);
+    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: 100vh;
+    grid-template-rows: 100vh;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .main .top {
+    width: 85%;
+    margin: 0rem 20%;
+    padding: 1rem 0 0;
+    text-align: left;
+  }
+  .main .top .header h2 {
+    font-size: 3.75vw;
+    margin-bottom: 1rem;
+  }
+  .main .top .header p {
+    font-size: 1.2vw;
+  }
+  .main .bottom {
+    width: 38vw;
+    margin: 0 0 0 2rem;
+  }
+  .main .bottom .tryItFree {
+    width: 100%;
+    background-color: #6055a5;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 7px 2px 0px #f96767;
+    box-shadow: 0px 7px 2px 0px #f96767;
+    margin-bottom: 1rem;
+  }
+  .main .bottom .tryItFree .tryItFreeText {
+    padding: 0.8rem 0rem;
+    margin: 0 auto;
+  }
+  .main .bottom div .form .inputContainer {
+    margin-bottom: 1vw;
+  }
+  .main .bottom div .form .inputContainer input {
+    height: 40px;
+  }
+  .main .bottom div .form .btnForm {
+    font-size: 1.1vw;
+    padding: 1vw 0;
+    margin: 2rem 0 1rem;
+  }
+}

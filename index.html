@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="top">
+        <div class="header">
+          <h2>Learn to code by watching others</h2>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+      </section>
+
+      <section class="bottom">
+        <div class="tryItFree">
+          <p class="tryItFreeText">
+            <b>Try it free 7 days</b> then $20/mo. thereafter
+          </p>
+        </div>
+        <div>
+          <form id="form" class="form" name="Sing up form">
+            <div class="inputContainer">
+              <input
+                type="text"
+                name="The first name field"
+                id="firstName"
+                class="firstName"
+                placeholder="First Name"
+              />
+              <small>First Name cannot be empty</small>
+              <img src="./images/icon-error.svg" alt="error" />
+            </div>
+            <div class="inputContainer">
+              <input
+                type="text"
+                name="The last name field"
+                id="lastName"
+                class="lastName"
+                placeholder="Last Name"
+              />
+              <small>First Name cannot be empty</small>
+              <img src="./images/icon-error.svg" alt="error" />
+            </div>
+            <div class="inputContainer">
+              <input
+                type="email"
+                name="The email field"
+                id="email"
+                class="email"
+                placeholder="Email Address"
+              />
+              <small>First Name cannot be empty</small>
+              <img src="./images/icon-error.svg" alt="error" />
+            </div>
+            <div class="inputContainer">
+              <input
+                type="password"
+                name="The password field"
+                id="password"
+                class="password"
+                placeholder="Password"
+              />
+              <small>First Name cannot be empty</small>
+              <img src="./images/icon-error.svg" alt="error" />
+            </div>
+            <button
+              name="submit button"
+              class="btnForm"
+              id="submit"
+              type="submit"
+            >
+              Claim your free trial
+            </button>
+          </form>
+          <p>
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
